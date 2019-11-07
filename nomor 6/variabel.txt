@@ -1,0 +1,67 @@
+---- variabel adalah sebuah tempat / wadah yang memiliki nama, yang digunakan untuk menyimpan nilai. 
+---- variabel => deklarasi, inisialisasi, assignment
+    -- deklarasi = mendaftarkan variabel ke dalam lingkup yang sesuai
+    -- inisialisasi = menyediakan memory untuk variabel
+    -- assignment = menetapkan nilai yang spesifik ke dalam variabel
+    -- var x;   // deklarasi & inisialisasi
+    -- x = 20;  // assignment
+    -- deklarasi variabel (var, let, const)
+    -- aturan menulis variabel
+        -- ga boleh pake spasi;
+        -- ba boleh diawali angka;
+        -- var ini_juga_boleh;
+        -- var boleh$;
+        -- var $_$;
+        -- var iniBolehBanget; //CamelCase
+
+---- Keyword & reserved Word
+    -- break
+    -- case 
+    -- catch 
+    -- class
+    -- const 
+    -- continue
+    -- debugger 
+    -- default 
+    -- delete 
+    -- do 
+    -- else 
+    -- enum
+    -- export 
+    -- extends 
+    -- false 
+    -- finally 
+    -- for 
+    -- function 
+    -- if 
+    -- implements
+    -- import 
+    -- in 
+    -- instanceof 
+    -- interface 
+    -- let
+    -- new
+    -- null
+    -- package 
+    -- private
+    -- protected
+    -- public
+    -- return
+    -- static 
+    -- super
+    -- switch
+    -- this
+    -- throw
+    -- true
+    -- try
+    -- typeof
+    -- var
+    -- void
+    -- while
+    -- with
+    -- yield
+
+---- shorthand variabel
+    -- var nama = 'firman',
+           umur = 23,
+           lulus = true;

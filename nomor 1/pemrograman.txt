@@ -1,0 +1,122 @@
++ statement adalah perintah untuk komputer dalam bahasa pemrograman. 
++ pemrograman adalah cara kita untuk memberikan instruksi yang simple dan terstruktur pada komputer.
+  - instruksi yang kita berikan harus benar dan masuk akal.  
+  - istruksi yang  kita berikan harus sesuai dengan aturan pada bahasa pemrograman tertentu. 
++ bahasa assembly adalah bahasa tingkat rendah (low level language)
++ bahasa tingkat (high level language) tinggi C++, python, javascript
++ contoh code Editor
+  - sublime text 3
+  - notepad++
+  - GEdit
+  - Atom
+  - UltraEdit
+  - Brackets
+  - Vim
+
++ IDE (Integrated Development Environment)
+  - XCode
+  - NetBeans
+  - Eclipse
+  - Dreamweaver
+  - Visual Studio
+  - PHP Storm
+
+  ==========================================
+  ++++++++ COMPILER VS INTERPRETER +++++++++
+  ==========================================
++ bagaimana menterjemahkan source code kita menjadi bahasa mesin dan mengeksekusi sorce code yang telah kita buat.
++ Menterjemahkan source code dengan cara compiler dan Interpreter. 
++ tiap-tiap bahasa pemrograman sudah menyediakan cara untuk melakukan compiler dan Interpreter dan pada umumnya dilakukan secara otomatis. 
+
++ cara kerja
+++ compiler = si A akan membuat source code lalu mengcompile file tersebut menggunakan sebuah compiler, setelah dikompilasi akan menghasilkan  sebuah file baru, file baru tersebut akan diberikan kepada si B. hasil Kompilasinya biasanya dinamakan executable atau program yang sudah bisa dieksekusi(file .exe). setelah si B menjalankan programnya, maka programnya bisa dilihat oleh si B. si B tidak perlu memiliki compiler lagi dan si B tidak akan pernah melihat source code yang diberikan si A. Sorce Code Tetap ada di si A. 
+++ Interpreter = si A membuat source Code lalu menduplikat sorce codenya untuk diberikan ke si B. si B harus menggunakan Interpreter untuk menerjemahkan program si A. si B menjalankan Interpreter sekaligus menjalankan programnya. Interpreter berjalan real time pada saat menerjemahkan source codenya baris perbaris.
+
++++++++ compiler ++++++++
+kelebihan :
+ + siap untuk dijalankan
+ + lebih cepat
+ + source code tidak terlihat
+kekurangan :
+ - tidak lintas platform (TIDAK LINTAS OS BAHKAN KETIKA OS NYA SAMA TAPI PROCESSORNYA BERBEDA HARUS DICOMPILE ULANG)
+ - tidak fleksibel
+ - langkah tambahan
+
+ ++++++ INTERPRETER ++++++++++
+kelebihan:
+ - lintas platform
+ - fleksibel
+ - mudah untuk diuji
+kekurangan:
+ - butuh Interpreter
+ - lebih lambat
+ - source code mudah diakses
+
++++++++ Hybrid / intermediate Language +++++++++
+- menggabungkan kedua cara tersebut yaitu compiler dan interpreter
+- cara kerjanya = si A membuat source code dia melakukan compile tetapi setelah dicompile tidak menghasilkan file .exe tetapi menghasilkan file yang namanya byte code /intermediate Language (IL). byte code sudah cukup teroptimasi untuk bahasa mesin dan pada umumnya dia lintas platform. IL kemudian diberikan kepada si B dan si B melakukan langkah terakhir sebelum menjalankan program dengan sesuatu yang dinamakan JIT (just in time ) Compilation, yaitu dia melakukan compile sambil menjalankan programnya sekaligus. 
+
+- contoh bahasa yang menggunakan compiler :
+   -- c, C++, objective-c, 
+- contoh bahasa yang menggunakan interpreter:
+   -- javascript, PHP
+- contoh bahasa yang menggunakan hybrid :
+   -- java, VB.NET, Python
+
+================================================
++++++++++++ Kenapa Javascript ++++++++++++++++++
+================================================
+- gratis tidak perlu memberi software, lisensi, serial number, 
+- tidak perlu proses instalasi 
+- javascript adalah sebuah bahasa scripting yaitu bahasa pemrograman yang tertanam di dalam sebuah program yang   lebih besar, jadiyang bisa menggunakan bahasa scripting ya hanya bahasa pemrograman tadi.
+- javascript adalah bahasa yang untyped /dynamically typed
+  -- contoh untyped
+    -- var x = 1234; // Integer 
+    --     x = 'hello world'; // string 
+    _________ TIDAK MASALAH ___________
+
+    ~~~~~~~~~~~~~~~~~~~
+javascript bisa apa ?
+- client-side web Development (front-end)
+  -- Native Javascript / Vanilla Javascript / javascript biasa 
+  -- JQuery
+  -- AngularJS, React, Ember, Backbone
+  -- dll
+
+- Server-side Development (back-end)
+  -- nodeJS
+  -- ExpressJS
+
+- Browser Extension / Add-on
+- Desktop Application
+  -- Electron, 
+  -- AppJS
+
+- Mobile App Development
+  -- JQuery Mobile, Cordova/PhoneGap
+-IoT & Robotics
+  -- CyclonJS, Johnny-Five
+-JSON
+ 
+==========================================
++++++++ perkembangan Javascript +++++++++++
+===========================================
+1997, ES1
+1998, ES2
+1999, ES3 - Launch
+2005, AJAX
+2008, ES4 Gagal (dibuat ulang dengan project ESHarmony)
+2009, ES5 -> JQuery
+2015, ES6
+2016, ES7
+
+============================================
+Lingkungan Pengembangan / Development Environment
+============================================
+ada 2 cara agar kita dapat berinteraksi dengan interpreter javascript yang ada di browser kita. 
+1. Console
+2. menulis script javascript di HTML
+   -- di dalam tag HTML dalam script
+      -- sript ditulis di baris terakhir sebelum tag tutup body
+   -- di file terpisah 
+     -- <script src="latihan.js"></script>

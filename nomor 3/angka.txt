@@ -1,0 +1,25 @@
+Angka
+- Angka tanpa desimal (integer)
+  -- 10, 1500, 123456
+  -- akurat sampai 15 digit contohnya 
+     -- 9999999999999999 (16 digit) hasilnya akan ada pembulatan 10000000000000000 (17 digit)
+
+- angka dengan desimal(koma diganti dengan titik)
+    -- 3.14 , 20.00,
+    -- maksimal 17 nomer dibelakang koma
+
+- eksponen
+    -- 123e5 // 12300000
+    -- 123e-5 //0.00123
+
+- bilangan negatif
+- angka spesial
+    -- infinity 
+        -- 2/0 //infinity
+    -- -infinity
+        -- -2/0 //-Infinity
+    -- NaN (Not a Number)
+        -- 0/0 //NaN
+        -- NaN juga dihasilkan ketika membagi angka dengan string
+            -- 100/"Apple" //NaN
+            -- 100/"5" // 20 [akan diproses sebagai angka 5]

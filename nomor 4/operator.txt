@@ -1,0 +1,74 @@
+=======================================
+++++++ operator pada Javascript +++++++
+=======================================
+=========== binary
+- aritmatika
+- penugasan
+- perbandingan
+- logika
+- string
+=================
+- kondisional ==== ternary
+- typeof ==== unary
+
++++ operator binary adalah operator yang membutuhkan 2 operand
+    - operand1 operator operand2 
+
++++ operator unary
+membutuhkan 1 operand
+    - operator operand 
+    atau
+    - operand operator
+
++++ operator ternary
+membutuhkan 3 operand
+
+==== operator matematika
+(+, -, *, /, % [modulus sisa bagi])
+- urutan operasi matematika 
+    - KuKaBaTaKu
+      () * / + - 
+==== operator penugasan / assignment 
+    - yang sering digunakan adalah sama dengan (=) dan yang lainnya (+=, -=, *=, /=, %=)
+    - var x = 10;
+    - x+= 5; // 15
+
+==== operator perbandingan / comparison
+    (==, !=, ===, !==, >, <, >=, <=) menghasilkan boolean (true / false)
+    - contoh 
+      10 != 10 // false
+      10 != 15 // true
+    - operator identitas (===, !== ) tidak hanya membandingkan nilainya tetapi membandingkan juga type datanya
+
+===============================================
++++++++++ operator Logika ++++++++++++++++++++
+===============================================
+==== operator logika (&&[and], ||[or], ![not])
+    contoh :
+        var x = 12;
+        (x % 12 === 0) && (x < 10); //False
+        var y = 10;
+        !(y <20); //false [dibalikin hasilnya]
+
+==== operator string (+)
+    contoh:
+        var a = "apple";
+        var b = "pen";
+        a + " "+ b;
+        10 + "10"; // "1010"
+        "10" + 10; // "1010"
+        10 + 10 + "10"; // "2010"
+        "10" + 10 + 10; // "101010"
+
+====== operator typeof (unary)
+untuk mengetahui type data apa yang kita masukkan nanti kedalamnya. 
+    contoh:
+    typeof(10); // number
+    typeof("10") // string
+    typeof(true) // boolean
+
+====== operator kondisional (ternary)
+membutuhkan 3 operator, digunakan untuk melakukan pengecekan pada sebuah kondisi, dan menghasilkan true atau false
+    contohnya:
+    (kondisi) ? benar : salah
+    (x % 2 == 0) ? "genap" : "ganjil"

@@ -1,0 +1,29 @@
+---- control Flow atau alur kendali dari sebuah program
+---- control flow dibagi 2 yaitu normal flow dan 
+    --normal flow = apabila program kita memiliki lebih dari satu statement, maka statement tersebut akan dieksekusi dari atas ke bawah atau dari kiri ke kanan. 
+    -- contoh :
+        alert('hallo');
+        alert('nama');
+        alert('saya');
+        alert('kukabataku');
+
+    
+~~~~ control Flow
+    - pengulangan / loop / iteration
+        - for
+            contoh: 
+                alert('mulai');
+                for(let i=0; i<5; i++){
+                    alert('hello world!');
+                }
+                alert('selesai');
+        - while
+        - do while
+    - pengkondisian / percabangan
+        sebuah keadaan dimana program kita bisa memilih untuk mengeksekusi statement yang berbeda berdasarkan kondisi yang diberikan
+        - if
+        - if.. else
+        - if.. else if.. else
+        - switch
+
+

@@ -1,0 +1,48 @@
+---- tipe data string dalam javascript digunakan untuk merepresentasikan data tekstual (plain text)
+---- string menggunakan "", atau ''
+    --- "Hari ini adalah hari Jum'at"
+    --- 'Kami sedang mengadakan kegiatan "Gerakan pungut Sampah"'
+    --- '"Gerakan pungut sampah" dilakukan pada hari Jum\'at'
+    --- "\"Gerakan pungut sampah\" dilakukan pada hari Jum'at"
+        escape character | Hasil
+        ----------------------------------------
+            \0           | Karakter null
+            \'           | '
+            \"           | "
+            \\           | \
+            \n           | new line/ baris baru 
+            \t           | tab
+            \b           | backspace
+            \uXXXX       | Unicode
+        ----------------------------------------
+
+        contoh: 'ini adalah hari \n jum\'at'
+                '\u00A9' \\ unicode untuk copyright
+                'Firman Mulyawan' == 'firman mulyawan' //false
+                'firman mulyawan'.length // panjangnya 15
+                 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+
+===============================================
+++++++++++++++++++++ BOOLEAN ++++++++++++++++++
+===============================================
+---- sebuah tipe data yang digunakan untuk merepresentasikan logika true atau false
+---- biasanya digunakan pada statement pengkondisian, untuk menentukan aksi yang berbeda dan mengatur alur kendali program
+    contoh: Boolean(10<20);   //true
+            Boolean(10);    //true
+            Boolean('firman');   //true
+            Boolean(0);   //false
+            Boolean(-1);   //true
+
+    truthy              | falsy
+    --------------------------------
+    true                | false
+    non-zero number     | 0
+    "string"            | ""
+    object              | undefined
+    arrays              | null
+    functions           | NaN
+    ---------------------------------
+    -- undefined adalah ketika kita mendeklarasikan sebuah variabel tapi belum mengisikan nilainya
+    -- NaN adalah not a number(bukan angka)
+    -- null adalah nilai kosong yang bisa kita berikan pada sebuah variabel
+    -- biasanya boolean digunakan pada pengkondisian dan function

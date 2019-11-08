@@ -1,0 +1,3 @@
+---- function yang  baik hanya mengerjakan 1 hal saja
+---- function adalah sebuah blok kode yang dibuat untuk melakukan tugas spesifik
+---- blok kode dapat dipanggil berulang kali sehingga memudahkan penelusuran

@@ -1,0 +1,82 @@
+---- kalo di bahasa lain ada method, class, constructor, module di javascript semua bisa dilakukan hanya oleh function
+---- sebuah sub-program / sub-route yang dapat dipanggil di bagian lain pada program. 
+---- merupakan struktur dasar pembentuk dari javascript
+---- disebut juga sebagai prosedur (kumpulan statement untuk melakukan tugas atau menghitung sebuah nilai).
+---- untuk dapat menggunakannya, kita harus 'membuat' terlebih dahulu function tersebut, lalu 'memanggilnya'.
+---- function termasuk kedalam firs-class object
+
+kenapa membuat function ?
+-- reusability (DRY: Do not Repeat Yourself) / penggunaan kembali dari kode yang sudah kita buat.
+-- Dekomposisi/ Abstraksi maksudnya menyembunyikan kompleksitas dari program yang kita buat 
+-- Modularitas maksudnya membuat jadi beberapa modul 
+
+Kategori function berdasarkan pembuatannya
+-- built-in function yaitu function yang telah dibuatkan oleh javascript
+-- user-defined function yaitu function yang dibuat sendiri
+====== built-in Function=======
+    -built-in function yaitu function yang sudah disediakan / dibua oleh javascript
+    - kita tinggal memanggilnya saja.
+    - contohnya :
+        - alert();
+        - confirm();
+        - prompt();
+        - dan masih banyak lagi.
+    - contoh bulit-in function terkait string:
+        - chart()
+        - slice()
+        - split()
+        - toString()
+        - toLowerCase()
+        - toUpperCase()
+    - contoh built-in function terkait Math:
+        - sin()
+        - cos()
+        - tan()
+        - random()
+        - round()
+        - floor()
+        - ceil()
+        - log()
+
+======== user-defined function =========
+    - fungsi yang kita sendiri
+    - menggunakan keyword function
+    - Nama Function (optional)
+    - parameter / argument adalah bahan baku untuk sebuah function yang bisa digunakan di dalam sebuah function
+        - disimpan di dalam ()
+        - boleh ada atau tidak, jika ada boleh lebih dari satu
+        - dipisahkan dengan koma( , )
+        - function body, 'dibungkus' dengan { }
+        - dapat mengembalikan nilai (return value) atau tidak 
+    
+---- Membuat user-defined function ----
+    - dengan deklarasi / function declaration
+    - dengan ekspresi / function expression
+
+    == function declaration ==
+    function jumlahDuaBilangan (a, b){
+        let total;
+        total = a + b;
+
+        return total;
+    }
+
+    == function expression == 
+        == disimpan dalam variabel
+    let jumlahDuaBilangan = function (a, b){
+        let total;
+        total = a + b;
+
+        return total;
+    }
+
+=== sebuah function ga harus ada nilai kembalian 
+
+===== memanggil / menjalankan function ====
+- dengan cara cukup memanggil nama function diikuti kurung buka tutup ()
+- jika function membutuhkan parameter langsung isikan parameternya. 
+- kelebihan menggunakan function bisa memanggil functionnya berulang-ulang.
+    contoh:
+    alert(jumlahDuaBilangan(1,2));
+    alert(jumlahDuaBilangan(25,30));
+    alert(jumlahDuaBilangan(1500,17.5));
